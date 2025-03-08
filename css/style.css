@@ -1,0 +1,26 @@
+th,td {
+    border: solid black;
+}
+
+th:hover:nth-child(n+2) {
+    background-color: rgb(255, 0, 179);
+    font-size:20px ;
+}
+
+td:nth-child(n+2){
+    border-color: rgb(84, 14, 89);
+   color: rgb(234, 19, 148);
+   font-size: 30px;
+}
+
+#number:nth-child(-n+1) {
+    border-color: rgb(126, 5, 5);
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 3px 5px rgb(105, 1, 105);
+}
+
+
+
